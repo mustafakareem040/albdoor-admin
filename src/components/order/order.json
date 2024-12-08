@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_order_orders",
+  "info": {
+    "displayName": "order",
+    "icon": "hashtag"
+  },
+  "options": {},
+  "attributes": {
+    "order": {
+      "type": "integer",
+      "unique": true,
+      "required": true
+    }
+  }
+}

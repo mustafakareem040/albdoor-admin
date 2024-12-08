@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_services_services",
+  "info": {
+    "displayName": "services",
+    "icon": "cog"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "additional": {
+      "displayName": "Additional Information",
+      "type": "component",
+      "repeatable": false,
+      "component": "additional.additional-information"
+    }
+  }
+}

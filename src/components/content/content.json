@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_content_contents",
+  "info": {
+    "displayName": "Content",
+    "icon": "underline",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "editor": {
+      "type": "customField",
+      "options": {
+        "preset": "default"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "order": {
+      "type": "component",
+      "repeatable": false,
+      "component": "order.order",
+      "required": true
+    }
+  }
+}

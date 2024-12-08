@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_additional_additional_informations",
+  "info": {
+    "displayName": "Additional Information",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "string",
+      "default": "#ffffff"
+    },
+    "fontFamily": {
+      "type": "enumeration",
+      "enum": [
+        "Poppins",
+        "IBM Plex Sans",
+        "Quicksand"
+      ],
+      "default": "Poppins"
+    },
+    "fontWeight": {
+      "type": "enumeration",
+      "enum": [
+        "light",
+        "normal",
+        "medium",
+        "semibold",
+        "bold",
+        "black"
+      ],
+      "default": "medium"
+    }
+  }
+}
